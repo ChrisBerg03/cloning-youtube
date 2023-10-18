@@ -15,6 +15,7 @@ header {
     height: 56px;
     background-color: brown;
     flex-shrink: 0;
+    display: flex;
 }
 
 main {
@@ -38,4 +39,12 @@ main {
 
 .side-menu, .main-content {
     overflow-y: scroll;
+}
+
+.bars-icon {
+    display: flex;
+    font-size: 32px;
+    position: relative;
+    align-items: center;
+    left: 16px;
 }
