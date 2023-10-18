@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;;
 }
 
 body {
@@ -13,9 +15,13 @@ body {
 
 header {
     height: 56px;
-    background-color: brown;
+    background-color: #030303;
     flex-shrink: 0;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid grey;
 }
 
 main {
@@ -47,4 +53,50 @@ main {
     position: relative;
     align-items: center;
     left: 16px;
+}
+
+.menu-btn-logo {
+    display: flex;
+}
+
+.search {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 8px 250px 8px 16px;    
+}
+
+.settings-sign-in {
+    display: flex;
+    gap: 30px;
+    align-content: center;
+}
+
+.home-logo {
+    height: 20px;
+    align-self: center;
+    position: relative;
+    left: 35px;
+}
+
+.btn-sign-in {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 8px 24px 8px 24px;
+    right: 16px;
+    display: flex;
+    color: #3ea6ff;
+    font-weight: 700;
+    position: relative;
+}
+
+.btn-settings {
+    gap: 16px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+.btn-sign-in:hover {
+    background-color: #263850;
 }
