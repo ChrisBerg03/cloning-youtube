@@ -41,7 +41,7 @@ main {
     overflow-y: scroll;
 }
 
-.bars-icon {
+#bars-icon {
     display: flex;
     font-size: 32px;
     position: relative;
